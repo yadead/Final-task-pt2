@@ -1,18 +1,16 @@
-from flask import Flask
-from flask import redirect
-from flask import render_template
-from flask import request
-from flask import jsonify
-import requests
+from flask import Flask, render_template, request, jsonify, session, redirect, url_for
 from flask_wtf import CSRFProtect
 from flask_csp.csp import csp_header
 import logging
+from userManagement import diary_entry, sdevname, sprojname, allentries, sCHOICEID, get_user_entries, delete_entry, signup, signin
+from datetime import datetime
 
-import userManagement as dbHandler
+# Initialize the Flask app
+app = Flask(__name__)
+app.secret_key = b"_53oi3uriq9pifpff;apl"
+csrf = CSRFProtect(app)
 
-# Code snippet for logging a message
-# app.logger.critical("message")
-
+# Set up logging
 app_log = logging.getLogger(__name__)
 logging.basicConfig(
     filename="security_log.log",
@@ -21,70 +19,59 @@ logging.basicConfig(
     format="%(asctime)s %(message)s",
 )
 
-# Generate a unique basic 16 key: https://acte.ltd/utils/randomkeygen
-app = Flask(__name__)
-app.secret_key = b"_53oi3uriq9pifpff;apl"
-csrf = CSRFProtect(app)
+# Routes
+@app.route("/signup", methods=["POST"])
+def signup_route():
+    data = request.get_json()
+    print("Received data:", data)
+    username = data["username"]
+    password = data["password"]
+    signup(username, password)
+    return jsonify({"message": f"User '{username}' signed up successfully!"}), 201
 
-
-# Redirect index.html to domain root for consistent UX
-@app.route("/index", methods=["GET"])
-@app.route("/index.htm", methods=["GET"])
-@app.route("/index.asp", methods=["GET"])
-@app.route("/index.php", methods=["GET"])
-@app.route("/index.html", methods=["GET"])
-def root():
-    return redirect("/", 302)
-
-
-@app.route("/", methods=["POST", "GET"])
-@csp_header(
-    {
-        # Server Side CSP is consistent with meta CSP in layout.html
-        "base-uri": "'self'",
-        "default-src": "'self'",
-        "style-src": "'self'",
-        "script-src": "'self'",
-        "img-src": "'self' data:",
-        "media-src": "'self'",
-        "font-src": "'self'",
-        "object-src": "'self'",
-        "child-src": "'self'",
-        "connect-src": "'self'",
-        "worker-src": "'self'",
-        "report-uri": "/csp_report",
-        "frame-ancestors": "'none'",
-        "form-action": "'self'",
-        "frame-src": "'none'",
-    }
-)
-def index():
-    return render_template("/index.html")
-
-
-@app.route("/privacy.html", methods=["GET"])
-def privacy():
-    return render_template("/privacy.html")
-
-
-# example CSRF protected form
-@app.route("/form.html", methods=["POST", "GET"])
-def form():
-    if request.method == "POST":
-        email = request.form["email"]
-        text = request.form["text"]
-        return render_template("/form.html")
+@app.route("/signin", methods=["POST"])
+def signin_route():
+    data = request.get_json()
+    username = data["username"]
+    password = data["password"]
+    if signin(username, password):
+        return jsonify({"message": f"{username} has been logged in"}), 200
     else:
-        return render_template("/form.html")
+        return jsonify({"error": "Invalid username or password"}), 401
 
+@app.route("/diary/create", methods=["POST"])
+def create_entry():
+    data = request.get_json()
+    Developer = data["developer"]
+    Project = data["project"]
+    Start_Time = data["start_time"]
+    End_Time = data["end_time"]
+    Repo = data["repo"]
+    Developer_Notes = data["developer_notes"]
+    new_id = diary_entry(Developer, Project, Start_Time, End_Time, Repo, Developer_Notes)
+    return jsonify({"message": "Diary entry added", "entry_id": new_id}), 201
 
-# Endpoint for logging CSP violations
-@app.route("/csp_report", methods=["POST"])
-@csrf.exempt
-def csp_report():
-    app.logger.critical(request.data.decode())
-    return "done"
+@app.route("/", methods=["GET"])
+@csp_header({
+    "base-uri": "'self'",
+    "default-src": "'self'",
+    "style-src": "'self'",
+    "script-src": "'self'",
+    "img-src": "'self' data:",
+    "media-src": "'self'",
+    "font-src": "'self'",
+    "object-src": "'self'",
+    "child-src": "'self'",
+    "connect-src": "'self'",
+    "worker-src": "'self'",
+    "report-uri": "/csp_report",
+    "frame-ancestors": "'none'",
+    "form-action": "'self'",
+    "frame-src": "'none'",
+})
+def index():
+    return render_template("index.html")
 
-
+# Error handling if routes or other parts of the code are misconfigured
 if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0", port=5000)
+    app.run(debug=True, host="0.0.0.0", port=5000)  # You can change the port if necessary

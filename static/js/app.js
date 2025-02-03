@@ -23,3 +23,24 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+function signup() {
+    let username = document.getElementById("username").value;
+    let password = document.getElementById("password").value;
+
+    console.log("Signing up", username, password);  // Add this for debugging
+
+    fetch("/signup", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ username, password })
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log(data);  // Log the response data to check if the backend is sending back the message
+        alert(data.message);
+    })
+    .catch(error => {
+        console.error("Error:", error);
+    });
+}

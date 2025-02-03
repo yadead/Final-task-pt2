@@ -1,0 +1,580 @@
+2025-02-03 12:35:32,160 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.173.170:5000
+2025-02-03 12:35:32,160 [33mPress CTRL+C to quit[0m
+2025-02-03 12:35:32,161  * Restarting with stat
+2025-02-03 12:35:32,437  * Debugger is active!
+2025-02-03 12:35:32,439  * Debugger PIN: 615-556-068
+2025-02-03 12:36:40,331 127.0.0.1 - - [03/Feb/2025 12:36:40] "GET / HTTP/1.1" 200 -
+2025-02-03 12:36:40,353 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 12:36:40,353 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":38,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 12:36:40,353 127.0.0.1 - - [03/Feb/2025 12:36:40] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 12:36:40,353 127.0.0.1 - - [03/Feb/2025 12:36:40] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 12:36:40,434 127.0.0.1 - - [03/Feb/2025 12:36:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-03 12:41:38,625 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.173.170:5000
+2025-02-03 12:41:38,625 [33mPress CTRL+C to quit[0m
+2025-02-03 12:41:38,626  * Restarting with stat
+2025-02-03 12:41:38,884  * Debugger is active!
+2025-02-03 12:41:38,886  * Debugger PIN: 615-556-068
+2025-02-03 12:41:49,057 127.0.0.1 - - [03/Feb/2025 12:41:49] "GET / HTTP/1.1" 200 -
+2025-02-03 12:41:49,072 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":9,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 12:41:49,073 127.0.0.1 - - [03/Feb/2025 12:41:49] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 12:41:49,073 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":40,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 12:41:49,073 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":74,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 12:41:49,073 127.0.0.1 - - [03/Feb/2025 12:41:49] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 12:41:49,073 127.0.0.1 - - [03/Feb/2025 12:41:49] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 12:42:25,987 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-attr","effective-directive":"script-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 12:42:25,987 127.0.0.1 - - [03/Feb/2025 12:42:25] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 12:46:47,602  * Detected change in 'C:\\Users\\Somat\\Documents\\Final-task-pt2\\main.py', reloading
+2025-02-03 12:46:47,643  * Restarting with stat
+2025-02-03 12:46:47,930  * Debugger is active!
+2025-02-03 12:46:47,932  * Debugger PIN: 615-556-068
+2025-02-03 12:46:48,945  * Detected change in 'C:\\Users\\Somat\\Documents\\Final-task-pt2\\main2.py', reloading
+2025-02-03 12:46:48,968  * Restarting with stat
+2025-02-03 12:46:49,241  * Debugger is active!
+2025-02-03 12:46:49,243  * Debugger PIN: 615-556-068
+2025-02-03 12:47:00,501 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.173.170:5000
+2025-02-03 12:47:00,501 [33mPress CTRL+C to quit[0m
+2025-02-03 12:47:00,502  * Restarting with stat
+2025-02-03 12:47:00,769  * Debugger is active!
+2025-02-03 12:47:00,771  * Debugger PIN: 615-556-068
+2025-02-03 12:47:10,334 127.0.0.1 - - [03/Feb/2025 12:47:10] "GET / HTTP/1.1" 200 -
+2025-02-03 12:47:10,351 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 12:47:10,351 127.0.0.1 - - [03/Feb/2025 12:47:10] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 12:52:36,559  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\main2.py', reloading
+2025-02-03 12:52:36,602  * Restarting with stat
+2025-02-03 12:52:36,866  * Debugger is active!
+2025-02-03 12:52:36,868  * Debugger PIN: 615-556-068
+2025-02-03 12:52:37,050  * Detected change in 'C:\\Users\\Somat\\Documents\\Final-task-pt2\\main2.py', reloading
+2025-02-03 12:52:37,090  * Restarting with stat
+2025-02-03 12:52:37,358  * Debugger is active!
+2025-02-03 12:52:37,360  * Debugger PIN: 615-556-068
+2025-02-03 12:52:38,884  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\main.py', reloading
+2025-02-03 12:52:38,908  * Restarting with stat
+2025-02-03 12:52:39,177  * Debugger is active!
+2025-02-03 12:52:39,179  * Debugger PIN: 615-556-068
+2025-02-03 12:52:39,374  * Detected change in 'C:\\Users\\Somat\\Documents\\Final-task-pt2\\main.py', reloading
+2025-02-03 12:52:39,398  * Restarting with stat
+2025-02-03 12:52:39,655  * Debugger is active!
+2025-02-03 12:52:39,657  * Debugger PIN: 615-556-068
+2025-02-03 12:52:40,669  * Detected change in 'C:\\Users\\Somat\\Documents\\Final-task-pt2\\main.py', reloading
+2025-02-03 12:52:40,696  * Restarting with stat
+2025-02-03 12:52:40,974  * Debugger is active!
+2025-02-03 12:52:40,976  * Debugger PIN: 615-556-068
+2025-02-03 12:52:41,194  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\main.py', reloading
+2025-02-03 12:52:41,239  * Restarting with stat
+2025-02-03 12:52:41,519  * Debugger is active!
+2025-02-03 12:52:41,521  * Debugger PIN: 615-556-068
+2025-02-03 12:54:21,222  * Detected change in 'C:\\Users\\Somat\\Documents\\Final-task-pt2\\main2.py', reloading
+2025-02-03 12:54:21,270  * Restarting with stat
+2025-02-03 12:54:21,562  * Debugger is active!
+2025-02-03 12:54:21,565  * Debugger PIN: 615-556-068
+2025-02-03 12:54:21,762  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\main2.py', reloading
+2025-02-03 12:54:21,813  * Restarting with stat
+2025-02-03 12:54:22,072  * Debugger is active!
+2025-02-03 12:54:22,074  * Debugger PIN: 615-556-068
+2025-02-03 12:54:32,601  * Detected change in 'C:\\Users\\Somat\\Documents\\Final-task-pt2\\main2.py', reloading
+2025-02-03 12:54:32,645  * Restarting with stat
+2025-02-03 12:54:32,937  * Debugger is active!
+2025-02-03 12:54:32,939  * Debugger PIN: 615-556-068
+2025-02-03 12:54:33,109  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\main2.py', reloading
+2025-02-03 12:54:33,158  * Restarting with stat
+2025-02-03 12:54:33,444  * Debugger is active!
+2025-02-03 12:54:33,446  * Debugger PIN: 615-556-068
+2025-02-03 12:54:59,515  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\main2.py', reloading
+2025-02-03 12:55:00,008  * Detected change in 'C:\\Users\\Somat\\Documents\\Final-task-pt2\\main2.py', reloading
+2025-02-03 12:55:00,035  * Restarting with stat
+2025-02-03 12:55:00,312  * Debugger is active!
+2025-02-03 12:55:00,314  * Debugger PIN: 615-556-068
+2025-02-03 12:55:38,409  * Detected change in 'C:\\Users\\Somat\\Documents\\Final-task-pt2\\main2.py', reloading
+2025-02-03 12:55:38,456  * Restarting with stat
+2025-02-03 12:55:38,729  * Debugger is active!
+2025-02-03 12:55:38,731  * Debugger PIN: 615-556-068
+2025-02-03 12:55:53,775  * Detected change in 'C:\\Users\\Somat\\Documents\\Final-task-pt2\\main2.py', reloading
+2025-02-03 12:55:53,816  * Restarting with stat
+2025-02-03 12:55:54,089  * Debugger is active!
+2025-02-03 12:55:54,091  * Debugger PIN: 615-556-068
+2025-02-03 12:56:28,178  * Detected change in 'C:\\Users\\Somat\\Documents\\Final-task-pt2\\main2.py', reloading
+2025-02-03 12:56:28,224  * Restarting with stat
+2025-02-03 12:56:28,495  * Debugger is active!
+2025-02-03 12:56:28,497  * Debugger PIN: 615-556-068
+2025-02-03 12:56:29,509  * Detected change in 'C:\\Users\\Somat\\Documents\\Final-task-pt2\\main.py', reloading
+2025-02-03 12:56:29,547  * Restarting with stat
+2025-02-03 12:56:29,819  * Debugger is active!
+2025-02-03 12:56:29,821  * Debugger PIN: 615-556-068
+2025-02-03 12:56:36,083 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.173.170:5000
+2025-02-03 12:56:36,083 [33mPress CTRL+C to quit[0m
+2025-02-03 12:56:36,085  * Restarting with stat
+2025-02-03 12:56:36,330  * Debugger is active!
+2025-02-03 12:56:36,332  * Debugger PIN: 615-556-068
+2025-02-03 12:56:41,200 127.0.0.1 - - [03/Feb/2025 12:56:41] "GET / HTTP/1.1" 200 -
+2025-02-03 12:56:41,214 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 12:56:41,214 127.0.0.1 - - [03/Feb/2025 12:56:41] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 12:56:41,736 127.0.0.1 - - [03/Feb/2025 12:56:41] "GET / HTTP/1.1" 200 -
+2025-02-03 12:56:41,747 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 12:56:41,747 127.0.0.1 - - [03/Feb/2025 12:56:41] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 12:56:41,898 127.0.0.1 - - [03/Feb/2025 12:56:41] "GET / HTTP/1.1" 200 -
+2025-02-03 12:56:41,910 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 12:56:41,910 127.0.0.1 - - [03/Feb/2025 12:56:41] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 12:56:42,063 127.0.0.1 - - [03/Feb/2025 12:56:42] "GET / HTTP/1.1" 200 -
+2025-02-03 12:56:42,070 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 12:56:42,070 127.0.0.1 - - [03/Feb/2025 12:56:42] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 12:56:42,225 127.0.0.1 - - [03/Feb/2025 12:56:42] "GET / HTTP/1.1" 200 -
+2025-02-03 12:56:42,236 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 12:56:42,237 127.0.0.1 - - [03/Feb/2025 12:56:42] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 12:56:42,389 127.0.0.1 - - [03/Feb/2025 12:56:42] "GET / HTTP/1.1" 200 -
+2025-02-03 12:56:42,399 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 12:56:42,400 127.0.0.1 - - [03/Feb/2025 12:56:42] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 12:56:42,533 127.0.0.1 - - [03/Feb/2025 12:56:42] "GET / HTTP/1.1" 200 -
+2025-02-03 12:56:42,544 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 12:56:42,544 127.0.0.1 - - [03/Feb/2025 12:56:42] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 12:56:42,695 127.0.0.1 - - [03/Feb/2025 12:56:42] "GET / HTTP/1.1" 200 -
+2025-02-03 12:56:42,703 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 12:56:42,703 127.0.0.1 - - [03/Feb/2025 12:56:42] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 12:56:42,828 127.0.0.1 - - [03/Feb/2025 12:56:42] "GET / HTTP/1.1" 200 -
+2025-02-03 12:56:42,839 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 12:56:42,839 127.0.0.1 - - [03/Feb/2025 12:56:42] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 12:56:42,986 127.0.0.1 - - [03/Feb/2025 12:56:42] "GET / HTTP/1.1" 200 -
+2025-02-03 12:56:42,994 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 12:56:42,995 127.0.0.1 - - [03/Feb/2025 12:56:42] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 12:57:57,597 127.0.0.1 - - [03/Feb/2025 12:57:57] "GET / HTTP/1.1" 200 -
+2025-02-03 12:57:57,611 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 12:57:57,612 127.0.0.1 - - [03/Feb/2025 12:57:57] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 12:57:57,613 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":67,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 12:57:57,613 127.0.0.1 - - [03/Feb/2025 12:57:57] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 12:57:58,189 127.0.0.1 - - [03/Feb/2025 12:57:58] "GET / HTTP/1.1" 200 -
+2025-02-03 12:57:58,197 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 12:57:58,198 127.0.0.1 - - [03/Feb/2025 12:57:58] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 12:57:58,199 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":67,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 12:57:58,199 127.0.0.1 - - [03/Feb/2025 12:57:58] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 12:57:58,344 127.0.0.1 - - [03/Feb/2025 12:57:58] "GET / HTTP/1.1" 200 -
+2025-02-03 12:57:58,353 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 12:57:58,353 127.0.0.1 - - [03/Feb/2025 12:57:58] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 12:57:58,354 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":67,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 12:57:58,355 127.0.0.1 - - [03/Feb/2025 12:57:58] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 12:57:58,495 127.0.0.1 - - [03/Feb/2025 12:57:58] "GET / HTTP/1.1" 200 -
+2025-02-03 12:57:58,502 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 12:57:58,503 127.0.0.1 - - [03/Feb/2025 12:57:58] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 12:57:58,504 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":67,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 12:57:58,505 127.0.0.1 - - [03/Feb/2025 12:57:58] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 12:57:58,641 127.0.0.1 - - [03/Feb/2025 12:57:58] "GET / HTTP/1.1" 200 -
+2025-02-03 12:57:58,649 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 12:57:58,650 127.0.0.1 - - [03/Feb/2025 12:57:58] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 12:57:58,651 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":67,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 12:57:58,651 127.0.0.1 - - [03/Feb/2025 12:57:58] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 12:57:58,793 127.0.0.1 - - [03/Feb/2025 12:57:58] "GET / HTTP/1.1" 200 -
+2025-02-03 12:57:58,803 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 12:57:58,803 127.0.0.1 - - [03/Feb/2025 12:57:58] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 12:57:58,804 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":67,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 12:57:58,804 127.0.0.1 - - [03/Feb/2025 12:57:58] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 12:58:36,602 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.173.170:5000
+2025-02-03 12:58:36,603 [33mPress CTRL+C to quit[0m
+2025-02-03 12:58:36,604  * Restarting with stat
+2025-02-03 12:58:36,853  * Debugger is active!
+2025-02-03 12:58:36,855  * Debugger PIN: 615-556-068
+2025-02-03 12:58:39,319 127.0.0.1 - - [03/Feb/2025 12:58:39] "GET / HTTP/1.1" 200 -
+2025-02-03 12:58:39,332 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":10,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 12:58:39,333 127.0.0.1 - - [03/Feb/2025 12:58:39] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 12:58:55,165  * Detected change in 'C:\\Users\\Somat\\Documents\\Final-task-pt2\\main.py', reloading
+2025-02-03 12:58:55,211  * Restarting with stat
+2025-02-03 12:58:55,496  * Debugger is active!
+2025-02-03 12:58:55,498  * Debugger PIN: 615-556-068
+2025-02-03 12:58:55,908  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\main.py', reloading
+2025-02-03 12:58:55,956  * Restarting with stat
+2025-02-03 12:58:56,251  * Debugger is active!
+2025-02-03 12:58:56,253  * Debugger PIN: 615-556-068
+2025-02-03 12:59:10,010 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.173.170:5000
+2025-02-03 12:59:10,010 [33mPress CTRL+C to quit[0m
+2025-02-03 12:59:10,011  * Restarting with stat
+2025-02-03 12:59:10,261  * Debugger is active!
+2025-02-03 12:59:10,262  * Debugger PIN: 615-556-068
+2025-02-03 12:59:12,263 127.0.0.1 - - [03/Feb/2025 12:59:12] "GET / HTTP/1.1" 200 -
+2025-02-03 12:59:12,279 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 12:59:12,279 127.0.0.1 - - [03/Feb/2025 12:59:12] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 12:59:13,005 127.0.0.1 - - [03/Feb/2025 12:59:13] "GET / HTTP/1.1" 200 -
+2025-02-03 12:59:13,013 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 12:59:13,013 127.0.0.1 - - [03/Feb/2025 12:59:13] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 12:59:24,863 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-attr","effective-directive":"script-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":43,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 12:59:24,863 127.0.0.1 - - [03/Feb/2025 12:59:24] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 13:03:34,873  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\main.py', reloading
+2025-02-03 13:03:34,909  * Restarting with stat
+2025-02-03 13:03:35,137  * Detected change in 'C:\\Users\\Somat\\Documents\\Final-task-pt2\\main.py', reloading
+2025-02-03 13:03:35,189  * Restarting with stat
+2025-02-03 13:03:35,213  * Debugger is active!
+2025-02-03 13:03:35,216  * Debugger PIN: 615-556-068
+2025-02-03 13:03:35,458  * Debugger is active!
+2025-02-03 13:03:35,460  * Debugger PIN: 615-556-068
+2025-02-03 13:03:48,253  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\main.py', reloading
+2025-02-03 13:03:48,297  * Restarting with stat
+2025-02-03 13:03:48,496  * Detected change in 'C:\\Users\\Somat\\Documents\\Final-task-pt2\\main.py', reloading
+2025-02-03 13:03:48,532  * Restarting with stat
+2025-02-03 13:03:48,551  * Debugger is active!
+2025-02-03 13:03:48,553  * Debugger PIN: 615-556-068
+2025-02-03 13:03:48,793  * Debugger is active!
+2025-02-03 13:03:48,795  * Debugger PIN: 615-556-068
+2025-02-03 13:03:50,569  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\main.py', reloading
+2025-02-03 13:03:50,607  * Restarting with stat
+2025-02-03 13:03:50,808  * Detected change in 'C:\\Users\\Somat\\Documents\\Final-task-pt2\\main.py', reloading
+2025-02-03 13:03:50,854  * Restarting with stat
+2025-02-03 13:03:50,865  * Debugger is active!
+2025-02-03 13:03:50,867  * Debugger PIN: 615-556-068
+2025-02-03 13:03:51,108  * Debugger is active!
+2025-02-03 13:03:51,110  * Debugger PIN: 615-556-068
+2025-02-03 13:04:07,915  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\main.py', reloading
+2025-02-03 13:04:07,956  * Restarting with stat
+2025-02-03 13:04:08,157  * Detected change in 'C:\\Users\\Somat\\Documents\\Final-task-pt2\\main.py', reloading
+2025-02-03 13:04:08,202  * Restarting with stat
+2025-02-03 13:04:36,507 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.173.170:5000
+2025-02-03 13:04:36,508 [33mPress CTRL+C to quit[0m
+2025-02-03 13:04:36,509  * Restarting with stat
+2025-02-03 13:04:36,763  * Debugger is active!
+2025-02-03 13:04:36,765  * Debugger PIN: 615-556-068
+2025-02-03 13:04:40,474 127.0.0.1 - - [03/Feb/2025 13:04:40] "GET / HTTP/1.1" 200 -
+2025-02-03 13:04:40,486 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 13:04:40,487 127.0.0.1 - - [03/Feb/2025 13:04:40] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 13:04:41,001 127.0.0.1 - - [03/Feb/2025 13:04:41] "GET / HTTP/1.1" 200 -
+2025-02-03 13:04:41,009 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 13:04:41,009 127.0.0.1 - - [03/Feb/2025 13:04:41] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 13:04:41,159 127.0.0.1 - - [03/Feb/2025 13:04:41] "GET / HTTP/1.1" 200 -
+2025-02-03 13:04:41,168 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 13:04:41,168 127.0.0.1 - - [03/Feb/2025 13:04:41] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 13:04:41,312 127.0.0.1 - - [03/Feb/2025 13:04:41] "GET / HTTP/1.1" 200 -
+2025-02-03 13:04:41,320 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 13:04:41,320 127.0.0.1 - - [03/Feb/2025 13:04:41] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 13:04:49,389 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-attr","effective-directive":"script-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":43,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 13:04:49,389 127.0.0.1 - - [03/Feb/2025 13:04:49] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 13:09:03,381  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\userManagement.py', reloading
+2025-02-03 13:09:03,427  * Restarting with stat
+2025-02-03 13:11:43,969 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.173.170:5000
+2025-02-03 13:11:43,969 [33mPress CTRL+C to quit[0m
+2025-02-03 13:11:43,970  * Restarting with stat
+2025-02-03 13:11:44,229  * Debugger is active!
+2025-02-03 13:11:44,231  * Debugger PIN: 615-556-068
+2025-02-03 13:11:49,992 127.0.0.1 - - [03/Feb/2025 13:11:49] "GET / HTTP/1.1" 200 -
+2025-02-03 13:11:50,007 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 13:11:50,008 127.0.0.1 - - [03/Feb/2025 13:11:50] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 13:11:50,695 127.0.0.1 - - [03/Feb/2025 13:11:50] "GET / HTTP/1.1" 200 -
+2025-02-03 13:11:50,707 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 13:11:50,707 127.0.0.1 - - [03/Feb/2025 13:11:50] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 13:11:50,853 127.0.0.1 - - [03/Feb/2025 13:11:50] "GET / HTTP/1.1" 200 -
+2025-02-03 13:11:50,866 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 13:11:50,866 127.0.0.1 - - [03/Feb/2025 13:11:50] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 13:11:58,352 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-attr","effective-directive":"script-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":43,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 13:11:58,352 127.0.0.1 - - [03/Feb/2025 13:11:58] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 13:14:36,635  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\main2.py', reloading
+2025-02-03 13:14:36,678  * Restarting with stat
+2025-02-03 13:14:36,932  * Debugger is active!
+2025-02-03 13:14:36,934  * Debugger PIN: 615-556-068
+2025-02-03 13:14:39,950  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\main2.py', reloading
+2025-02-03 13:14:39,986  * Restarting with stat
+2025-02-03 13:14:40,246  * Debugger is active!
+2025-02-03 13:14:40,248  * Debugger PIN: 615-556-068
+2025-02-03 13:16:10,465  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\main2.py', reloading
+2025-02-03 13:16:10,504  * Restarting with stat
+2025-02-03 13:16:10,785  * Debugger is active!
+2025-02-03 13:16:10,787  * Debugger PIN: 615-556-068
+2025-02-03 13:17:55,031  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\main2.py', reloading
+2025-02-03 13:17:55,070  * Restarting with stat
+2025-02-03 13:17:55,345  * Debugger is active!
+2025-02-03 13:17:55,347  * Debugger PIN: 615-556-068
+2025-02-03 13:18:11,395  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\main2.py', reloading
+2025-02-03 13:18:11,439  * Restarting with stat
+2025-02-03 13:18:11,729  * Debugger is active!
+2025-02-03 13:18:11,731  * Debugger PIN: 615-556-068
+2025-02-03 13:19:23,907  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\main2.py', reloading
+2025-02-03 13:19:23,939  * Restarting with stat
+2025-02-03 13:19:24,240  * Debugger is active!
+2025-02-03 13:19:24,242  * Debugger PIN: 615-556-068
+2025-02-03 13:22:38,692  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\main2.py', reloading
+2025-02-03 13:22:38,739  * Restarting with stat
+2025-02-03 13:22:39,010  * Debugger is active!
+2025-02-03 13:22:39,012  * Debugger PIN: 615-556-068
+2025-02-03 13:22:43,032  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\main.py', reloading
+2025-02-03 13:22:43,081  * Restarting with stat
+2025-02-03 13:22:43,347  * Debugger is active!
+2025-02-03 13:22:43,349  * Debugger PIN: 615-556-068
+2025-02-03 13:22:55,281 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.173.170:5000
+2025-02-03 13:22:55,281 [33mPress CTRL+C to quit[0m
+2025-02-03 13:22:55,282  * Restarting with stat
+2025-02-03 13:22:55,532  * Debugger is active!
+2025-02-03 13:22:55,534  * Debugger PIN: 615-556-068
+2025-02-03 13:23:04,428 127.0.0.1 - - [03/Feb/2025 13:23:04] "GET / HTTP/1.1" 200 -
+2025-02-03 13:23:04,443 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 13:23:04,443 127.0.0.1 - - [03/Feb/2025 13:23:04] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 13:23:05,087 127.0.0.1 - - [03/Feb/2025 13:23:05] "GET / HTTP/1.1" 200 -
+2025-02-03 13:23:05,095 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 13:23:05,096 127.0.0.1 - - [03/Feb/2025 13:23:05] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 13:23:05,262 127.0.0.1 - - [03/Feb/2025 13:23:05] "GET / HTTP/1.1" 200 -
+2025-02-03 13:23:05,273 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 13:23:05,274 127.0.0.1 - - [03/Feb/2025 13:23:05] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 13:23:12,215 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-attr","effective-directive":"script-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":43,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 13:23:12,216 127.0.0.1 - - [03/Feb/2025 13:23:12] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 13:27:10,603 127.0.0.1 - - [03/Feb/2025 13:27:10] "GET / HTTP/1.1" 200 -
+2025-02-03 13:27:10,621 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 13:27:10,621 127.0.0.1 - - [03/Feb/2025 13:27:10] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 13:27:15,257 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-attr","effective-directive":"script-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":43,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 13:27:15,257 127.0.0.1 - - [03/Feb/2025 13:27:15] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 13:35:14,294  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\main2.py', reloading
+2025-02-03 13:35:14,336  * Restarting with stat
+2025-02-03 13:35:14,617  * Debugger is active!
+2025-02-03 13:35:14,619  * Debugger PIN: 615-556-068
+2025-02-03 13:35:18,639  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\userManagement.py', reloading
+2025-02-03 13:35:18,680  * Restarting with stat
+2025-02-03 13:35:18,952  * Debugger is active!
+2025-02-03 13:35:18,954  * Debugger PIN: 615-556-068
+2025-02-03 13:35:46,026  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\userManagement.py', reloading
+2025-02-03 13:35:46,066  * Restarting with stat
+2025-02-03 13:35:46,333  * Debugger is active!
+2025-02-03 13:35:46,335  * Debugger PIN: 615-556-068
+2025-02-03 13:35:49,352  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\userManagement.py', reloading
+2025-02-03 13:35:49,397  * Restarting with stat
+2025-02-03 13:35:49,678  * Debugger is active!
+2025-02-03 13:35:49,680  * Debugger PIN: 615-556-068
+2025-02-03 13:36:07,411 127.0.0.1 - - [03/Feb/2025 13:36:07] "GET / HTTP/1.1" 200 -
+2025-02-03 13:36:07,428 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 13:36:07,428 127.0.0.1 - - [03/Feb/2025 13:36:07] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 13:36:07,955 127.0.0.1 - - [03/Feb/2025 13:36:07] "GET / HTTP/1.1" 200 -
+2025-02-03 13:36:07,964 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 13:36:07,964 127.0.0.1 - - [03/Feb/2025 13:36:07] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 13:36:08,123 127.0.0.1 - - [03/Feb/2025 13:36:08] "GET / HTTP/1.1" 200 -
+2025-02-03 13:36:08,136 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 13:36:08,136 127.0.0.1 - - [03/Feb/2025 13:36:08] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 13:36:08,277 127.0.0.1 - - [03/Feb/2025 13:36:08] "GET / HTTP/1.1" 200 -
+2025-02-03 13:36:08,287 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 13:36:08,288 127.0.0.1 - - [03/Feb/2025 13:36:08] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 13:36:08,407 127.0.0.1 - - [03/Feb/2025 13:36:08] "GET / HTTP/1.1" 200 -
+2025-02-03 13:36:08,420 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 13:36:08,421 127.0.0.1 - - [03/Feb/2025 13:36:08] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 13:36:08,553 127.0.0.1 - - [03/Feb/2025 13:36:08] "GET / HTTP/1.1" 200 -
+2025-02-03 13:36:08,563 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 13:36:08,564 127.0.0.1 - - [03/Feb/2025 13:36:08] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 13:36:17,705 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.173.170:5000
+2025-02-03 13:36:17,705 [33mPress CTRL+C to quit[0m
+2025-02-03 13:36:17,707  * Restarting with stat
+2025-02-03 13:36:17,964  * Debugger is active!
+2025-02-03 13:36:17,966  * Debugger PIN: 615-556-068
+2025-02-03 13:36:22,158 127.0.0.1 - - [03/Feb/2025 13:36:22] "GET / HTTP/1.1" 200 -
+2025-02-03 13:36:22,167 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 13:36:22,167 127.0.0.1 - - [03/Feb/2025 13:36:22] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 13:36:28,371 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-attr","effective-directive":"script-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":43,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 13:36:28,371 127.0.0.1 - - [03/Feb/2025 13:36:28] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 13:37:39,174  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\resetdbs.py', reloading
+2025-02-03 13:37:39,217  * Restarting with stat
+2025-02-03 13:37:39,479  * Debugger is active!
+2025-02-03 13:37:39,481  * Debugger PIN: 615-556-068
+2025-02-03 13:38:46,041 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.173.170:5000
+2025-02-03 13:38:46,041 [33mPress CTRL+C to quit[0m
+2025-02-03 13:38:46,043  * Restarting with stat
+2025-02-03 13:38:46,297  * Debugger is active!
+2025-02-03 13:38:46,299  * Debugger PIN: 615-556-068
+2025-02-03 13:39:40,524 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-attr","effective-directive":"script-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":44,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 13:39:40,524 127.0.0.1 - - [03/Feb/2025 13:39:40] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 13:43:15,966  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\main2.py', reloading
+2025-02-03 13:43:16,009  * Restarting with stat
+2025-02-03 13:43:16,277  * Debugger is active!
+2025-02-03 13:43:16,279  * Debugger PIN: 615-556-068
+2025-02-03 13:43:24,308  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\main2.py', reloading
+2025-02-03 13:43:24,341  * Restarting with stat
+2025-02-03 13:43:24,601  * Debugger is active!
+2025-02-03 13:43:24,603  * Debugger PIN: 615-556-068
+2025-02-03 13:46:09,799 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.173.170:5000
+2025-02-03 13:46:09,799 [33mPress CTRL+C to quit[0m
+2025-02-03 13:46:09,800  * Restarting with stat
+2025-02-03 13:46:10,067  * Debugger is active!
+2025-02-03 13:46:10,069  * Debugger PIN: 615-556-068
+2025-02-03 13:46:17,269 127.0.0.1 - - [03/Feb/2025 13:46:17] "GET / HTTP/1.1" 200 -
+2025-02-03 13:46:17,284 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 13:46:17,285 127.0.0.1 - - [03/Feb/2025 13:46:17] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 13:46:17,763 127.0.0.1 - - [03/Feb/2025 13:46:17] "GET / HTTP/1.1" 200 -
+2025-02-03 13:46:17,775 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 13:46:17,775 127.0.0.1 - - [03/Feb/2025 13:46:17] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 13:46:17,937 127.0.0.1 - - [03/Feb/2025 13:46:17] "GET / HTTP/1.1" 200 -
+2025-02-03 13:46:17,946 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 13:46:17,947 127.0.0.1 - - [03/Feb/2025 13:46:17] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 13:46:18,090 127.0.0.1 - - [03/Feb/2025 13:46:18] "GET / HTTP/1.1" 200 -
+2025-02-03 13:46:18,100 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":7,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 13:46:18,100 127.0.0.1 - - [03/Feb/2025 13:46:18] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 13:46:25,362 {"csp-report":{"document-uri":"http://127.0.0.1:5000/","referrer":"","violated-directive":"script-src-attr","effective-directive":"script-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":43,"source-file":"http://127.0.0.1:5000/","status-code":200,"script-sample":""}}
+2025-02-03 13:46:25,362 127.0.0.1 - - [03/Feb/2025 13:46:25] "POST /csp_report HTTP/1.1" 200 -
+2025-02-03 13:47:45,310  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\main2.py', reloading
+2025-02-03 13:47:45,358  * Restarting with stat
+2025-02-03 13:47:45,630  * Debugger is active!
+2025-02-03 13:47:45,632  * Debugger PIN: 615-556-068
+2025-02-03 13:57:37,775 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.173.170:5000
+2025-02-03 13:57:37,775 [33mPress CTRL+C to quit[0m
+2025-02-03 13:57:37,776  * Restarting with stat
+2025-02-03 13:57:38,031  * Debugger is active!
+2025-02-03 13:57:38,033  * Debugger PIN: 615-556-068
+2025-02-03 13:57:48,074 127.0.0.1 - - [03/Feb/2025 13:57:48] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-03 13:57:49,029 127.0.0.1 - - [03/Feb/2025 13:57:49] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-03 13:57:49,243 127.0.0.1 - - [03/Feb/2025 13:57:49] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-03 13:57:49,417 127.0.0.1 - - [03/Feb/2025 13:57:49] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-03 13:57:49,569 127.0.0.1 - - [03/Feb/2025 13:57:49] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-03 13:57:49,729 127.0.0.1 - - [03/Feb/2025 13:57:49] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-03 13:57:49,890 127.0.0.1 - - [03/Feb/2025 13:57:49] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-03 13:57:50,208 127.0.0.1 - - [03/Feb/2025 13:57:50] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-03 13:57:50,373 127.0.0.1 - - [03/Feb/2025 13:57:50] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-03 13:57:50,526 127.0.0.1 - - [03/Feb/2025 13:57:50] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-03 13:57:50,908 127.0.0.1 - - [03/Feb/2025 13:57:50] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-03 13:58:41,663 127.0.0.1 - - [03/Feb/2025 13:58:41] "[33mGET /signup HTTP/1.1[0m" 404 -
+2025-02-03 13:58:44,830 127.0.0.1 - - [03/Feb/2025 13:58:44] "[33mGET /si HTTP/1.1[0m" 404 -
+2025-02-03 13:59:11,266  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\main2.py', reloading
+2025-02-03 13:59:11,300  * Restarting with stat
+2025-02-03 14:03:01,682 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.173.170:5000
+2025-02-03 14:03:01,682 [33mPress CTRL+C to quit[0m
+2025-02-03 14:03:01,684  * Restarting with stat
+2025-02-03 14:03:01,938  * Debugger is active!
+2025-02-03 14:03:01,940  * Debugger PIN: 615-556-068
+2025-02-03 14:03:13,270 127.0.0.1 - - [03/Feb/2025 14:03:13] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-03 14:03:14,589 127.0.0.1 - - [03/Feb/2025 14:03:14] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-03 14:03:15,024 127.0.0.1 - - [03/Feb/2025 14:03:15] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-03 14:03:15,179 127.0.0.1 - - [03/Feb/2025 14:03:15] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-03 14:03:15,309 127.0.0.1 - - [03/Feb/2025 14:03:15] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-03 14:03:15,448 127.0.0.1 - - [03/Feb/2025 14:03:15] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-03 14:03:15,595 127.0.0.1 - - [03/Feb/2025 14:03:15] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-03 14:03:38,036  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\main.py', reloading
+2025-02-03 14:03:38,072  * Restarting with stat
+2025-02-03 14:03:38,381  * Debugger is active!
+2025-02-03 14:03:38,383  * Debugger PIN: 615-556-068
+2025-02-03 14:04:05,455  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\main.py', reloading
+2025-02-03 14:04:05,489  * Restarting with stat
+2025-02-03 14:04:05,756  * Debugger is active!
+2025-02-03 14:04:05,758  * Debugger PIN: 615-556-068
+2025-02-03 14:04:08,770  * Debugger is active!
+2025-02-03 14:04:08,770  * Debugger PIN: 615-556-068
+2025-02-03 14:04:08,827 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.173.170:5000
+2025-02-03 14:04:08,827 [33mPress CTRL+C to quit[0m
+2025-02-03 14:04:08,827  * Restarting with stat
+2025-02-03 14:04:09,096  * Debugger is active!
+2025-02-03 14:04:09,098  * Debugger PIN: 615-556-068
+2025-02-03 14:05:17,325 127.0.0.1 - - [03/Feb/2025 14:05:17] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-03 14:05:17,976 127.0.0.1 - - [03/Feb/2025 14:05:17] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-03 14:05:18,148 127.0.0.1 - - [03/Feb/2025 14:05:18] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-03 14:05:18,295 127.0.0.1 - - [03/Feb/2025 14:05:18] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-03 14:05:18,452 127.0.0.1 - - [03/Feb/2025 14:05:18] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-03 14:06:58,503  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\main.py', reloading
+2025-02-03 14:06:58,543  * Restarting with stat
+2025-02-03 14:06:58,817  * Debugger is active!
+2025-02-03 14:06:58,819  * Debugger PIN: 615-556-068
+2025-02-03 14:07:03,184 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.173.170:5000
+2025-02-03 14:07:03,184 [33mPress CTRL+C to quit[0m
+2025-02-03 14:07:03,185  * Restarting with stat
+2025-02-03 14:07:03,443  * Debugger is active!
+2025-02-03 14:07:03,445  * Debugger PIN: 615-556-068
+2025-02-03 14:07:08,092 127.0.0.1 - - [03/Feb/2025 14:07:08] "GET / HTTP/1.1" 200 -
+2025-02-03 14:07:08,106 127.0.0.1 - - [03/Feb/2025 14:07:08] "[33mPOST /csp_report HTTP/1.1[0m" 404 -
+2025-02-03 14:07:17,982 127.0.0.1 - - [03/Feb/2025 14:07:17] "[33mPOST /csp_report HTTP/1.1[0m" 404 -
+2025-02-03 14:07:28,318 127.0.0.1 - - [03/Feb/2025 14:07:28] "[33mPOST /csp_report HTTP/1.1[0m" 404 -
+2025-02-03 14:10:28,943  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\main.py', reloading
+2025-02-03 14:10:28,992  * Restarting with stat
+2025-02-03 14:10:29,258  * Debugger is active!
+2025-02-03 14:10:29,260  * Debugger PIN: 615-556-068
+2025-02-03 14:10:34,133 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.173.170:5000
+2025-02-03 14:10:34,133 [33mPress CTRL+C to quit[0m
+2025-02-03 14:10:34,134  * Restarting with stat
+2025-02-03 14:10:34,389  * Debugger is active!
+2025-02-03 14:10:34,391  * Debugger PIN: 615-556-068
+2025-02-03 14:10:40,364 127.0.0.1 - - [03/Feb/2025 14:10:40] "GET / HTTP/1.1" 200 -
+2025-02-03 14:10:40,377 127.0.0.1 - - [03/Feb/2025 14:10:40] "[33mGET /app.js HTTP/1.1[0m" 404 -
+2025-02-03 14:10:40,840 127.0.0.1 - - [03/Feb/2025 14:10:40] "GET / HTTP/1.1" 200 -
+2025-02-03 14:10:40,852 127.0.0.1 - - [03/Feb/2025 14:10:40] "[33mGET /app.js HTTP/1.1[0m" 404 -
+2025-02-03 14:10:41,002 127.0.0.1 - - [03/Feb/2025 14:10:41] "GET / HTTP/1.1" 200 -
+2025-02-03 14:10:41,014 127.0.0.1 - - [03/Feb/2025 14:10:41] "[33mGET /app.js HTTP/1.1[0m" 404 -
+2025-02-03 14:10:48,175 127.0.0.1 - - [03/Feb/2025 14:10:48] "[33mPOST /csp_report HTTP/1.1[0m" 404 -
+2025-02-03 14:15:41,137  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\main.py', reloading
+2025-02-03 14:15:41,177  * Restarting with stat
+2025-02-03 14:15:41,433  * Debugger is active!
+2025-02-03 14:15:41,435  * Debugger PIN: 615-556-068
+2025-02-03 14:15:54,476  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\main.py', reloading
+2025-02-03 14:15:54,516  * Restarting with stat
+2025-02-03 14:15:54,799  * Debugger is active!
+2025-02-03 14:15:54,800  * Debugger PIN: 615-556-068
+2025-02-03 14:15:58,745 127.0.0.1 - - [03/Feb/2025 14:15:58] "GET / HTTP/1.1" 200 -
+2025-02-03 14:15:58,760 127.0.0.1 - - [03/Feb/2025 14:15:58] "[33mGET /app.js HTTP/1.1[0m" 404 -
+2025-02-03 14:15:59,344 127.0.0.1 - - [03/Feb/2025 14:15:59] "GET / HTTP/1.1" 200 -
+2025-02-03 14:15:59,353 127.0.0.1 - - [03/Feb/2025 14:15:59] "[33mGET /app.js HTTP/1.1[0m" 404 -
+2025-02-03 14:16:05,743 127.0.0.1 - - [03/Feb/2025 14:16:05] "[33mPOST /csp_report HTTP/1.1[0m" 404 -
+2025-02-03 14:17:25,029  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\main.py', reloading
+2025-02-03 14:17:25,052  * Restarting with stat
+2025-02-03 14:17:25,319  * Debugger is active!
+2025-02-03 14:17:25,320  * Debugger PIN: 615-556-068
+2025-02-03 14:17:29,884 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.173.170:5000
+2025-02-03 14:17:29,885 [33mPress CTRL+C to quit[0m
+2025-02-03 14:17:29,886  * Restarting with stat
+2025-02-03 14:17:30,135  * Debugger is active!
+2025-02-03 14:17:30,137  * Debugger PIN: 615-556-068
+2025-02-03 14:17:32,407 127.0.0.1 - - [03/Feb/2025 14:17:32] "GET / HTTP/1.1" 200 -
+2025-02-03 14:17:32,422 127.0.0.1 - - [03/Feb/2025 14:17:32] "[33mGET /app.js HTTP/1.1[0m" 404 -
+2025-02-03 14:17:38,655 127.0.0.1 - - [03/Feb/2025 14:17:38] "[33mPOST /csp_report HTTP/1.1[0m" 404 -
+2025-02-03 14:21:55,764  * Detected change in 'c:\\Users\\Somat\\Documents\\Final-task-pt2\\main.py', reloading
+2025-02-03 14:21:55,807  * Restarting with stat
+2025-02-03 14:21:56,093  * Debugger is active!
+2025-02-03 14:21:56,095  * Debugger PIN: 615-556-068
+2025-02-03 14:22:12,170 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.173.170:5000
+2025-02-03 14:22:12,170 [33mPress CTRL+C to quit[0m
+2025-02-03 14:22:12,171  * Restarting with stat
+2025-02-03 14:22:12,420  * Debugger is active!
+2025-02-03 14:22:12,422  * Debugger PIN: 615-556-068
+2025-02-03 14:22:16,907 127.0.0.1 - - [03/Feb/2025 14:22:16] "GET / HTTP/1.1" 200 -
+2025-02-03 14:22:16,921 127.0.0.1 - - [03/Feb/2025 14:22:16] "[33mGET /app.js HTTP/1.1[0m" 404 -
+2025-02-03 14:22:17,280 127.0.0.1 - - [03/Feb/2025 14:22:17] "GET / HTTP/1.1" 200 -
+2025-02-03 14:22:17,291 127.0.0.1 - - [03/Feb/2025 14:22:17] "[33mGET /app.js HTTP/1.1[0m" 404 -
+2025-02-03 14:22:17,478 127.0.0.1 - - [03/Feb/2025 14:22:17] "GET / HTTP/1.1" 200 -
+2025-02-03 14:22:17,488 127.0.0.1 - - [03/Feb/2025 14:22:17] "[33mGET /app.js HTTP/1.1[0m" 404 -
+2025-02-03 14:22:24,219 127.0.0.1 - - [03/Feb/2025 14:22:24] "[33mPOST /csp_report HTTP/1.1[0m" 404 -
+2025-02-03 14:22:25,691 127.0.0.1 - - [03/Feb/2025 14:22:25] "[33mPOST /csp_report HTTP/1.1[0m" 404 -

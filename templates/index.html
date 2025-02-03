@@ -1,11 +1,29 @@
-{% extends 'layout.html' %}
-{% block content %}
-<div class="container">
-    <div class="row">
-        <h1 class="display-1">Hello world!</h1>
-    </div>
-    <div class="row">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diary Management</title>
+    <!-- Link to your external JavaScript file -->
+    <script src="app.js"></script>  
+</head>
+<body>
+    <h2>Diary Management System</h2>
 
-    </div>
-</div>
-{% endblock %}
+    <form id="auth-form">
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <button type="button" onclick="signup_route()">Sign Up</button>
+        <button type="button" onclick="signin_route()">Sign In</button>
+    </form>
+
+    <h3>Search Diary Entries</h3>
+    <label for="search-type">Search by:</label>
+    <select id="search-type">
+        <option value="developer">Developer Name</option>
+        <option value="project">Project Name</option>
+    </select>
+    <input type="text" id="search-term" placeholder="Enter search term">
+    <button onclick="searchEntries()">Search</button>
+</body>
+</html>
